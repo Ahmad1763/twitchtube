@@ -17,15 +17,15 @@ BLACKLIST = [
 ]  # channels/games you dont want to be included in the video
 
 # twitch
-CLIENT_ID = ""  # Twitch Client ID
-OAUTH_TOKEN = ""  # Twitch OAuth Token
+CLIENT_ID = "6a8mmmgkgql5c5sovc312w059t0iwx"  # Twitch Client ID
+OAUTH_TOKEN = "ncm0cvmkbu38ri8n1tq8li738pljsb"  # Twitch OAuth Token
 PERIOD = 24  # how many hours since the clip's creation should've passed e.g. 24, 48 etc
 LANGUAGE = "en"  # en, es, th etc.
 LIMIT = 100  # 1-100
 
 
 # selenium
-ROOT_PROFILE_PATH = r"C:/Users/USERNAME/AppData/Roaming/Mozilla/Firefox/Profiles/r4Nd0m.selenium"  # Path to the Firefox profile where you are logged into YouTube
+ROOT_PROFILE_PATH = r"C:\Users\User\AppData\Roaming\Mozilla\Firefox\Profiles\roql8q8b.solenium"  # Path to the Firefox profile where you are logged into YouTube
 EXECUTABLE_PATH = r"geckodriver"
 SLEEP = 3  # How many seconds Firefox should sleep for when uploading
 HEADLESS = True  # If True Firefox will be hidden (True/False)
